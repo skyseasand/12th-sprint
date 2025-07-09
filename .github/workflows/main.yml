@@ -1,7 +1,8 @@
 name: WORFLOW
 
 on:
-  pull_request: branch [main]
+  pull_request:
+    branches: [main]
 
 jobs:
 
